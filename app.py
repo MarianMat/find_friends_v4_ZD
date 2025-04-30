@@ -2,7 +2,7 @@ import json
 import streamlit as st
 import pandas as pd
 from pycaret.clustering import load_model, predict_model  # type: ignore
-import plotly.express as px  # type: ignore
+import plotly.express as px
 
 
 MODEL_NAME = 'welcome_survey_clustering_pipeline_v2'
